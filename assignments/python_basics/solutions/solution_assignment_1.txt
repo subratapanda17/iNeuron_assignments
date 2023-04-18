@@ -1,0 +1,72 @@
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+    *
+    'hello'
+    -87.8
+    -
+    /
+    6
+Ans.
+    *           --> operator
+    'hello'     --> value
+    -87.8       --> value
+    -           --> operator
+    /           --> operator
+    6           --> value
+
+
+2. What is the difference between string and variable?
+Ans.
+    A variable is a symbol that are used to store data in python
+    A string is a data type or the a type of information that we would like to store in a variable
+
+
+3. Describe three different data types.
+Ans.
+    Numeric :- integer,float
+    String  :- strings and characters
+    Bool    :- boolean values true/false
+
+
+4. What is an expression made up of? What do all expressions do?
+Ans.
+    A combination of operators and operands that can be calculated to get a value is called an expression
+    All expressions return a value when interpreted by the python interpretor
+
+
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+Ans.
+    spam = 10 is a statement. 
+    An expresion consists of one/multiple operators with multiple operands so that a result can be assumed to be derived if the calculation is tries. A statement is used to create/store/display a value.
+
+
+6. After running the following code, what does the variable bacon contain?
+    bacon = 22
+    bacon + 1
+Ans.
+    22
+
+
+7. What should the values of the following two terms be?
+    'spam' + 'spamspam'
+    'spam' * 3
+Ans. 
+    'spam' + 'spamspam' = 'spamspamspam'
+    'spam' * 3 = 'spamspamspam'
+
+
+8. Why is eggs a valid variable name while 100 is invalid?
+Ans.
+    a variable name in python must start with a string type and cannot start with a numeric type
+
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+Ans.
+    int()
+    float()
+    str()
+
+
+10. Why does this expression cause an error? How can you fix it?
+    'I have eaten ' + 99 + ' burritos.'
+Ans.
+    Python cannot concatinate integer data type with string data type
